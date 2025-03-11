@@ -24,7 +24,7 @@ jobs:
     strategy:
       matrix:
         GP2040_BOARDCONFIG: 
-        [
+        [Bubble]
 #          ARCController,
 #          Blank,
 #          Pico,
@@ -64,8 +64,7 @@ jobs:
 #          WaveshareZero,
 #          Stress,
 #          SGFDevices,
-#          ZeroRhythm
-           Bubble]
+#          ZeroRhythm]
 
     steps:
     #Global Setup
