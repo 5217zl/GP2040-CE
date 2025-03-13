@@ -24,8 +24,7 @@ jobs:
     strategy:
       matrix:
         GP2040_BOARDCONFIG:         
-          [ARCController,
-          Blank,
+          [Blank,
           Pico,
           PicoW,
           BentoBox,
