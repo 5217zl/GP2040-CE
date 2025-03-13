@@ -24,7 +24,7 @@ jobs:
     strategy:
       matrix:
         GP2040_BOARDCONFIG: 
-          [Bubble]
+          [Pico]
 
     steps:
     #Global Setup
