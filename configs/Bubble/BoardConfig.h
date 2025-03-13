@@ -84,17 +84,16 @@
 #define LEDS_DPAD_DOWN       2
 #define LEDS_DPAD_RIGHT      3
 #define LEDS_BUTTON_L3       4 
-#define LEDS_DPAD_UP         5 
-#define LEDS_BUTTON_R3       6
-#define LEDS_BUTTON_B1       7
-#define LEDS_BUTTON_B2       8
-#define LEDS_BUTTON_R2       9
-#define LEDS_BUTTON_L2       10
-#define LEDS_BUTTON_L1       11
-#define LEDS_BUTTON_R1       12
-#define LEDS_BUTTON_B4       13
-#define LEDS_BUTTON_B3       14
-#define LEDS_BUTTON_L3       15
+#define LEDS_BUTTON_R3       5
+#define LEDS_BUTTON_B1       5
+#define LEDS_BUTTON_B2       7
+#define LEDS_BUTTON_R2       8
+#define LEDS_BUTTON_L2       9
+#define LEDS_BUTTON_L1       10
+#define LEDS_BUTTON_R1       11
+#define LEDS_BUTTON_B4       12
+#define LEDS_BUTTON_B3       13
+
 
 
 #define BUZZER_ENABLED 1
