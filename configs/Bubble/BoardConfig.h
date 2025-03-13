@@ -4,8 +4,8 @@
  * SPDX-FileCopyrightText: Copyright (c) 2024 OpenStickCommunity (gp2040-ce.info)
  */
 
-#ifndef BUBBLE_BOARD_CONFIG_H_
-#define BUBBLE_BOARD_CONFIG_H_
+#ifndef PICO_BOARD_CONFIG_H_
+#define PICO_BOARD_CONFIG_H_
 
 #include "enums.pb.h"
 #include "class/hid/hid.h"
@@ -38,8 +38,8 @@
 
 // Setting GPIO pins to assigned by add-on
 //
-//#define GPIO_PIN_00 GpioAction::ASSIGNED_TO_ADDON
-//#define GPIO_PIN_01 GpioAction::ASSIGNED_TO_ADDON
+#define GPIO_PIN_00 GpioAction::ASSIGNED_TO_ADDON
+#define GPIO_PIN_01 GpioAction::ASSIGNED_TO_ADDON
 #define GPIO_PIN_15 GpioAction::ASSIGNED_TO_ADDON
 #define GPIO_PIN_28 GpioAction::ASSIGNED_TO_ADDON
 #define GPIO_PIN_29 GpioAction::ASSIGNED_TO_ADDON
@@ -79,20 +79,23 @@
 #define LED_FORMAT LED_FORMAT_GRB
 #define LEDS_PER_PIXEL 1
 
-#define LEDS_DPAD_UP         0
-#define LEDS_DPAD_LEFT       1
-#define LEDS_DPAD_DOWN       2
-#define LEDS_DPAD_RIGHT      3
-#define LEDS_BUTTON_L3       4 
-#define LEDS_BUTTON_R3       5
-#define LEDS_BUTTON_B1       5
-#define LEDS_BUTTON_B2       7
-#define LEDS_BUTTON_R2       8
-#define LEDS_BUTTON_L2       9
-#define LEDS_BUTTON_L1       10
-#define LEDS_BUTTON_R1       11
-#define LEDS_BUTTON_B4       12
-#define LEDS_BUTTON_B3       13
+#define LEDS_DPAD_UP     0
+#define LEDS_DPAD_LEFT   1
+#define LEDS_DPAD_DOWN   2
+#define LEDS_DPAD_RIGHT  3
+#define LEDS_BUTTON_L3   4
+#define LEDS_BUTTON_S1   5
+#define LEDS_BUTTON_R3   6
+#define LEDS_BUTTON_B1   7
+#define LEDS_BUTTON_B2   8
+#define LEDS_BUTTON_R2   9
+#define LEDS_BUTTON_L2   10
+#define LEDS_BUTTON_L1   11
+#define LEDS_BUTTON_R1   12
+#define LEDS_BUTTON_B4   13
+#define LEDS_BUTTON_S2   14
+#define LEDS_BUTTON_B3   15
+
 
 
 
@@ -101,11 +104,11 @@
 
 
 
-//#define HAS_I2C_DISPLAY 1
-//#define I2C0_ENABLED 1
-//#define I2C0_PIN_SDA 0
-//#define I2C0_PIN_SCL 1
-//#define BUTTON_LAYOUT BUTTON_LAYOUT_STICKLESS
-//#define BUTTON_LAYOUT_RIGHT BUTTON_LAYOUT_STICKLESSB
+#define HAS_I2C_DISPLAY 1
+#define I2C0_ENABLED 1
+#define I2C0_PIN_SDA 0
+#define I2C0_PIN_SCL 1
+#define BUTTON_LAYOUT BUTTON_LAYOUT_STICKLESS
+#define BUTTON_LAYOUT_RIGHT BUTTON_LAYOUT_STICKLESSB
 
 #endif
