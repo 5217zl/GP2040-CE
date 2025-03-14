@@ -4,8 +4,8 @@
  * SPDX-FileCopyrightText: Copyright (c) 2024 OpenStickCommunity (gp2040-ce.info)
  */
 
-#ifndef PICO_BOARD_CONFIG_H_
-#define PICO_BOARD_CONFIG_H_
+#ifndef BUBBLE_BOARD_CONFIG_H_
+#define BUBBLE_BOARD_CONFIG_H_
 
 #include "enums.pb.h"
 #include "class/hid/hid.h"
@@ -77,7 +77,7 @@
 #define LED_BRIGHTNESS_MAXIMUM 100
 #define LED_BRIGHTNESS_STEPS 5
 #define LED_FORMAT LED_FORMAT_GRB
-#define LEDS_PER_PIXEL 1
+#define LEDS_PER_PIXEL 2
 
 #define LEDS_DPAD_UP     0
 #define LEDS_DPAD_LEFT   1
@@ -109,6 +109,8 @@
 #define I2C0_PIN_SDA 0
 #define I2C0_PIN_SCL 1
 #define BUTTON_LAYOUT BUTTON_LAYOUT_STICKLESS
-#define BUTTON_LAYOUT_RIGHT BUTTON_LAYOUT_STICKLESS
+#define BUTTON_LAYOUT_RIGHT BUTTON_LAYOUT_STICKLESSB
+
+
 
 #endif
