@@ -38,8 +38,8 @@
 
 // Setting GPIO pins to assigned by add-on
 //
-#define GPIO_PIN_00 GpioAction::ASSIGNED_TO_ADDON
-#define GPIO_PIN_01 GpioAction::ASSIGNED_TO_ADDON
+//#define GPIO_PIN_00 GpioAction::ASSIGNED_TO_ADDON
+//#define GPIO_PIN_01 GpioAction::ASSIGNED_TO_ADDON
 #define GPIO_PIN_15 GpioAction::ASSIGNED_TO_ADDON
 #define GPIO_PIN_28 GpioAction::ASSIGNED_TO_ADDON
 #define GPIO_PIN_29 GpioAction::ASSIGNED_TO_ADDON
@@ -68,7 +68,7 @@
 
 #define TURBO_ENABLED 1
 #define GPIO_PIN_14 GpioAction::BUTTON_PRESS_TURBO
-#define TURBO_LED_PIN 15
+//#define TURBO_LED_PIN 15
 
 #define BOARD_LEDS_PIN 28
 #define LED_BRIGHTNESS_MAXIMUM 100
@@ -101,12 +101,12 @@
 
 
 
-#define HAS_I2C_DISPLAY 1
-#define I2C0_ENABLED 1
-#define I2C0_PIN_SDA 0
-#define I2C0_PIN_SCL 1
+//#define HAS_I2C_DISPLAY 1
+//#define I2C0_ENABLED 1
+//#define I2C0_PIN_SDA 0
+//#define I2C0_PIN_SCL 1
 #define BUTTON_LAYOUT BUTTON_LAYOUT_STICKLESS
-#define BUTTON_LAYOUT_RIGHT BUTTON_LAYOUT_STICKLESS
+//#define BUTTON_LAYOUT_RIGHT BUTTON_LAYOUT_STICKLESS
 
 
 
