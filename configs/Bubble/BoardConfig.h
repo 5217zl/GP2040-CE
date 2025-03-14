@@ -46,7 +46,7 @@
 
 // Keyboard Mapping Configuration
 //                                            // GP2040 | Xinput | Switch  | PS3/4/5  | Dinput | Arcade |
-#define KEY_DPAD_UP     HID_KEY_ARROW_UP      // UP_1   | UP_1   | UP_1    | UP_1     | UP_1   | UP_1   |
+#define KEY_DPAD_UP     HID_KEY_ARROW_UP      // UP     | UP     | UP      | UP       | UP     | UP     |
 #define KEY_DPAD_DOWN   HID_KEY_ARROW_DOWN    // DOWN   | DOWN   | DOWN    | DOWN     | DOWN   | DOWN   |
 #define KEY_DPAD_RIGHT  HID_KEY_ARROW_RIGHT   // RIGHT  | RIGHT  | RIGHT   | RIGHT    | RIGHT  | RIGHT  |
 #define KEY_DPAD_LEFT   HID_KEY_ARROW_LEFT    // LEFT   | LEFT   | LEFT    | LEFT     | LEFT   | LEFT   |
@@ -61,12 +61,9 @@
 #define KEY_BUTTON_S1   HID_KEY_5             // S1     | Back   | Minus   | Select   | 9      | Coin   |
 #define KEY_BUTTON_S2   HID_KEY_1             // S2     | Start  | Plus    | Start    | 10     | Start  |
 #define KEY_BUTTON_L3   HID_KEY_EQUAL         // L3     | LS     | LS      | L3       | 11     | LS     |
-#define KEY_BUTTON_R3   HID_KEY_MINUS         // R3_2   | RS     | RS      | R3       | 12     | RS     |
+#define KEY_BUTTON_R3   HID_KEY_MINUS         // R3     | RS     | RS      | R3       | 12     | RS     |
 #define KEY_BUTTON_A1   HID_KEY_9             // A1     | Guide  | Home    | PS       | 13     | ~      |
-#define KEY_DPAD_UP     HID_KEY_ARROW_UP      // UP_2   | UP_2   | UP_2    | UP_2     | UP_2   | UP_2   |
-#define KEY_BUTTON_L3   HID_KEY_EQUAL         // L3_1   | LS     | LS      | L3       | 11     | LS     |
-#define KEY_BUTTON_L3   HID_KEY_EQUAL         // L3_2   | LS     | LS      | L3       | 11     | LS     |
-#define KEY_BUTTON_R3   HID_KEY_MINUS         // R3_1   | RS     | RS      | R3       | 12     | RS     |
+#define KEY_BUTTON_A2   HID_KEY_F2            // A2     | ~      | Capture | ~        | 14     | ~      |
 #define KEY_BUTTON_FN   -1                    // Hotkey Function                                        |
 
 #define TURBO_ENABLED 1
@@ -109,7 +106,7 @@
 #define I2C0_PIN_SDA 0
 #define I2C0_PIN_SCL 1
 #define BUTTON_LAYOUT BUTTON_LAYOUT_STICKLESS
-#define BUTTON_LAYOUT_RIGHT BUTTON_LAYOUT_STICKLESSB
+#define BUTTON_LAYOUT_RIGHT BUTTON_LAYOUT_STICKLESS
 
 
 
