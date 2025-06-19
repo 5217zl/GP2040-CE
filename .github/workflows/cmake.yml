@@ -69,6 +69,7 @@ jobs:
           WaveshareZero,
           Stress,
           SGFDevices,
+          Z14,
           ZeroRhythm]
 
     steps:
